@@ -9,6 +9,7 @@ for i in range(b):
     print("*" *(i*2+1), end=" ")
     print(" " * (b-i-1))
 
-class Dog(self, name, age):
-    self.name = name 
-    self.age = age
+class Dog():
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
